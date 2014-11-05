@@ -1,0 +1,8 @@
+Package: jonaitis
+Version: 0.1
+Author: Erin Jonaitis
+Maintainer: Erin Jonaitis <jonaitis@wisc.edu>
+License: NCSA + file LICENSE
+Title: Miscellaneous useful functions
+Description: A repository for all the wheels I've reinvented.
+URL: https://github.com/emjonaitis/
