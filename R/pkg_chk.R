@@ -34,6 +34,7 @@ liblist <- c("bbmle",
              "nlme",
              "openxlsx",
              "ordinal",
+             "pander",
              "plyr",
              "quantreg",
              "Rcpp",
@@ -51,5 +52,5 @@ update.packages()
 install.packages(misslist,dependencies=TRUE)
 
 library(devtools)
-install_github('Rapporter/pander')
+if (!("OASIS" !%in% data.frame(installed.packages())$Package)) { install_github('emjonaitis/OASIS') }
 }
