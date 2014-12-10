@@ -50,7 +50,4 @@ present <- data.frame(installed.packages())
 misslist <- liblist[!(liblist %in% present$Package)]
 update.packages()
 install.packages(misslist,dependencies=TRUE)
-
-library(devtools)
-if (!("OASIS" !%in% data.frame(installed.packages())$Package)) { install_github('emjonaitis/OASIS') }
 }
